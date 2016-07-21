@@ -1,0 +1,494 @@
+<?xml version="1.0" ?>
+<ItemLookupResponse
+    xmlns="http://webservices.amazon.com/AWSECommerceService/2011-08-01">
+    <OperationRequest>
+        <HTTPHeaders>
+            <Header Name="UserAgent" Value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"></Header>
+        </HTTPHeaders>
+        <RequestId>8f90d14d-22a2-4c95-9cc5-12676f0287da</RequestId>
+        <Arguments>
+            <Argument Name="AWSAccessKeyId" Value="AKIAJCJ5T2QSY2FHSFUA"></Argument>
+            <Argument Name="AssociateTag" Value="bighead360-20"></Argument>
+            <Argument Name="Condition" Value="Used"></Argument>
+            <Argument Name="IdType" Value="ISBN"></Argument>
+            <Argument Name="ItemId" Value="0374399972"></Argument>
+            <Argument Name="Operation" Value="ItemLookup"></Argument>
+            <Argument Name="ResponseGroup" Value="BrowseNodes,EditorialReview,Images,ItemAttributes,OfferListings"></Argument>
+            <Argument Name="SearchIndex" Value="Books"></Argument>
+            <Argument Name="Service" Value="AWSECommerceService"></Argument>
+            <Argument Name="Timestamp" Value="2016-07-14T18:38:24.000Z"></Argument>
+            <Argument Name="Signature" Value="J0r54MulixxHjUIAk+9xPMc8kWtwYyBULn7o5RtJyXE="></Argument>
+        </Arguments>
+        <RequestProcessingTime>0.0365518690000000</RequestProcessingTime>
+    </OperationRequest>
+    <Items>
+        <Request>
+            <IsValid>True</IsValid>
+            <ItemLookupRequest>
+                <Condition>Used</Condition>
+                <IdType>ISBN</IdType>
+                <ItemId>0374399972</ItemId>
+                <ResponseGroup>BrowseNodes</ResponseGroup>
+                <ResponseGroup>EditorialReview</ResponseGroup>
+                <ResponseGroup>Images</ResponseGroup>
+                <ResponseGroup>ItemAttributes</ResponseGroup>
+                <ResponseGroup>OfferListings</ResponseGroup>
+                <SearchIndex>Books</SearchIndex>
+                <VariationPage>All</VariationPage>
+            </ItemLookupRequest>
+        </Request>
+        <Item>
+            <ASIN>0374399972</ASIN>
+            <DetailPageURL>http://www.amazon.com/Night-Elie-Wiesel/dp/0374399972%3FSubscriptionId%3DAKIAJCJ5T2QSY2FHSFUA%26tag%3Dbighead360-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0374399972</DetailPageURL>
+            <ItemLinks>
+                <ItemLink>
+                    <Description>Technical Details</Description>
+                    <URL>http://www.amazon.com/Night-Elie-Wiesel/dp/tech-data/0374399972%3FSubscriptionId%3DAKIAJCJ5T2QSY2FHSFUA%26tag%3Dbighead360-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0374399972</URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Add To Baby Registry</Description>
+                    <URL>http://www.amazon.com/gp/registry/baby/add-item.html%3Fasin.0%3D0374399972%26SubscriptionId%3DAKIAJCJ5T2QSY2FHSFUA%26tag%3Dbighead360-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0374399972</URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Add To Wedding Registry</Description>
+                    <URL>http://www.amazon.com/gp/registry/wedding/add-item.html%3Fasin.0%3D0374399972%26SubscriptionId%3DAKIAJCJ5T2QSY2FHSFUA%26tag%3Dbighead360-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0374399972</URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Add To Wishlist</Description>
+                    <URL>http://www.amazon.com/gp/registry/wishlist/add-item.html%3Fasin.0%3D0374399972%26SubscriptionId%3DAKIAJCJ5T2QSY2FHSFUA%26tag%3Dbighead360-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0374399972</URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Tell A Friend</Description>
+                    <URL>http://www.amazon.com/gp/pdp/taf/0374399972%3FSubscriptionId%3DAKIAJCJ5T2QSY2FHSFUA%26tag%3Dbighead360-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0374399972</URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>All Customer Reviews</Description>
+                    <URL>http://www.amazon.com/review/product/0374399972%3FSubscriptionId%3DAKIAJCJ5T2QSY2FHSFUA%26tag%3Dbighead360-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0374399972</URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>All Offers</Description>
+                    <URL>http://www.amazon.com/gp/offer-listing/0374399972%3FSubscriptionId%3DAKIAJCJ5T2QSY2FHSFUA%26tag%3Dbighead360-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0374399972</URL>
+                </ItemLink>
+            </ItemLinks>
+            <SmallImage>
+                <URL>http://ecx.images-amazon.com/images/I/410M0HP2JZL._SL75_.jpg</URL>
+                <Height Units="pixels">75</Height>
+                <Width Units="pixels">50</Width>
+            </SmallImage>
+            <MediumImage>
+                <URL>http://ecx.images-amazon.com/images/I/410M0HP2JZL._SL160_.jpg</URL>
+                <Height Units="pixels">160</Height>
+                <Width Units="pixels">106</Width>
+            </MediumImage>
+            <LargeImage>
+                <URL>http://ecx.images-amazon.com/images/I/410M0HP2JZL.jpg</URL>
+                <Height Units="pixels">500</Height>
+                <Width Units="pixels">330</Width>
+            </LargeImage>
+            <ImageSets>
+                <ImageSet Category="variant">
+                    <SwatchImage>
+                        <URL>http://ecx.images-amazon.com/images/I/41XyxeU2euL._SL30_.jpg</URL>
+                        <Height Units="pixels">30</Height>
+                        <Width Units="pixels">20</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>http://ecx.images-amazon.com/images/I/41XyxeU2euL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">50</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>http://ecx.images-amazon.com/images/I/41XyxeU2euL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">50</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>http://ecx.images-amazon.com/images/I/41XyxeU2euL._SL110_.jpg</URL>
+                        <Height Units="pixels">110</Height>
+                        <Width Units="pixels">73</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>http://ecx.images-amazon.com/images/I/41XyxeU2euL._SL160_.jpg</URL>
+                        <Height Units="pixels">160</Height>
+                        <Width Units="pixels">106</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>http://ecx.images-amazon.com/images/I/41XyxeU2euL.jpg</URL>
+                        <Height Units="pixels">500</Height>
+                        <Width Units="pixels">331</Width>
+                    </LargeImage>
+                </ImageSet>
+                <ImageSet Category="variant">
+                    <SwatchImage>
+                        <URL>http://ecx.images-amazon.com/images/I/31AvJt-jJgL._SL30_.jpg</URL>
+                        <Height Units="pixels">30</Height>
+                        <Width Units="pixels">22</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>http://ecx.images-amazon.com/images/I/31AvJt-jJgL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">56</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>http://ecx.images-amazon.com/images/I/31AvJt-jJgL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">56</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>http://ecx.images-amazon.com/images/I/31AvJt-jJgL._SL110_.jpg</URL>
+                        <Height Units="pixels">110</Height>
+                        <Width Units="pixels">82</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>http://ecx.images-amazon.com/images/I/31AvJt-jJgL._SL160_.jpg</URL>
+                        <Height Units="pixels">160</Height>
+                        <Width Units="pixels">120</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>http://ecx.images-amazon.com/images/I/31AvJt-jJgL.jpg</URL>
+                        <Height Units="pixels">500</Height>
+                        <Width Units="pixels">375</Width>
+                    </LargeImage>
+                </ImageSet>
+                <ImageSet Category="primary">
+                    <SwatchImage>
+                        <URL>http://ecx.images-amazon.com/images/I/410M0HP2JZL._SL30_.jpg</URL>
+                        <Height Units="pixels">30</Height>
+                        <Width Units="pixels">20</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>http://ecx.images-amazon.com/images/I/410M0HP2JZL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">50</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>http://ecx.images-amazon.com/images/I/410M0HP2JZL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">50</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>http://ecx.images-amazon.com/images/I/410M0HP2JZL._SL110_.jpg</URL>
+                        <Height Units="pixels">110</Height>
+                        <Width Units="pixels">73</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>http://ecx.images-amazon.com/images/I/410M0HP2JZL._SL160_.jpg</URL>
+                        <Height Units="pixels">160</Height>
+                        <Width Units="pixels">106</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>http://ecx.images-amazon.com/images/I/410M0HP2JZL.jpg</URL>
+                        <Height Units="pixels">500</Height>
+                        <Width Units="pixels">330</Width>
+                    </LargeImage>
+                </ImageSet>
+            </ImageSets>
+            <ItemAttributes>
+                <Author>Elie Wiesel</Author>
+                <Binding>Hardcover</Binding>
+                <Brand>Wiesel, Elie/ Wiesel, Marion (TRN)</Brand>
+                <CatalogNumberList>
+                    <CatalogNumberListElement>POTM-0374399972</CatalogNumberListElement>
+                    <CatalogNumberListElement>TM-0374399972</CatalogNumberListElement>
+                </CatalogNumberList>
+                <Creator Role="Translator">Marion Wiesel</Creator>
+                <EAN>9780374399979</EAN>
+                <EANList>
+                    <EANListElement>9780374399979</EANListElement>
+                </EANList>
+                <Edition>Revised</Edition>
+                <IsAdultProduct>0</IsAdultProduct>
+                <ISBN>0374399972</ISBN>
+                <ItemDimensions>
+                    <Height Units="hundredths-inches">851</Height>
+                    <Length Units="hundredths-inches">561</Length>
+                    <Weight Units="hundredths-pounds">60</Weight>
+                    <Width Units="hundredths-inches">60</Width>
+                </ItemDimensions>
+                <Label>Hill and Wang</Label>
+                <Languages>
+                    <Language>
+                        <Name>English</Name>
+                        <Type>Published</Type>
+                    </Language>
+                    <Language>
+                        <Name>English</Name>
+                        <Type>Original Language</Type>
+                    </Language>
+                    <Language>
+                        <Name>English</Name>
+                        <Type>Unknown</Type>
+                    </Language>
+                </Languages>
+                <ListPrice>
+                    <Amount>2100</Amount>
+                    <CurrencyCode>USD</CurrencyCode>
+                    <FormattedPrice>$21.00</FormattedPrice>
+                </ListPrice>
+                <Manufacturer>Hill and Wang</Manufacturer>
+                <MPN>9780374399979</MPN>
+                <NumberOfItems>1</NumberOfItems>
+                <NumberOfPages>120</NumberOfPages>
+                <PackageDimensions>
+                    <Height Units="hundredths-inches">70</Height>
+                    <Length Units="hundredths-inches">830</Length>
+                    <Weight Units="hundredths-pounds">60</Weight>
+                    <Width Units="hundredths-inches">570</Width>
+                </PackageDimensions>
+                <PackageQuantity>1</PackageQuantity>
+                <PartNumber>9780374399979</PartNumber>
+                <ProductGroup>Book</ProductGroup>
+                <ProductTypeName>ABIS_BOOK</ProductTypeName>
+                <PublicationDate>2006-01-16</PublicationDate>
+                <Publisher>Hill and Wang</Publisher>
+                <ReleaseDate>2006-01-16</ReleaseDate>
+                <SKU>9780374399979</SKU>
+                <Studio>Hill and Wang</Studio>
+                <Title>Night</Title>
+            </ItemAttributes>
+            <Offers>
+                <TotalOffers>1</TotalOffers>
+                <TotalOfferPages>1</TotalOfferPages>
+                <MoreOffersUrl>http://www.amazon.com/gp/offer-listing/0374399972%3FSubscriptionId%3DAKIAJCJ5T2QSY2FHSFUA%26tag%3Dbighead360-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0374399972</MoreOffersUrl>
+                <Offer>
+                    <OfferAttributes>
+                        <Condition>Used</Condition>
+                    </OfferAttributes>
+                    <OfferListing>
+                        <OfferListingId>F5R5eC4Kv8rsW%2BZ2hlc8L14RA3QvD8Usiv1kB58x%2BWMyPFGePdYg8Cfs49xJhZM05QToEk03gGsi02ddiRKX1sXcKiIZPmEtfnJ7r9oHnVRlde2lQh7Ty2s%2BB%2FSOoP3lcA0yDr4PtwKIDAOl20EC%2BA%3D%3D</OfferListingId>
+                        <Price>
+                            <Amount>166</Amount>
+                            <CurrencyCode>USD</CurrencyCode>
+                            <FormattedPrice>$1.66</FormattedPrice>
+                        </Price>
+                        <AmountSaved>
+                            <Amount>1934</Amount>
+                            <CurrencyCode>USD</CurrencyCode>
+                            <FormattedPrice>$19.34</FormattedPrice>
+                        </AmountSaved>
+                        <PercentageSaved>92</PercentageSaved>
+                        <Availability>Usually ships in 1-2 business days</Availability>
+                        <AvailabilityAttributes>
+                            <AvailabilityType>now</AvailabilityType>
+                            <MinimumHours>24</MinimumHours>
+                            <MaximumHours>48</MaximumHours>
+                        </AvailabilityAttributes>
+                        <IsEligibleForSuperSaverShipping>0</IsEligibleForSuperSaverShipping>
+                        <IsEligibleForPrime>0</IsEligibleForPrime>
+                    </OfferListing>
+                </Offer>
+            </Offers>
+            <EditorialReviews>
+                <EditorialReview>
+                    <Source>Product Description</Source>
+                    <Content>
+                        <p>
+                            <b>A New Translation From The French By Marion Wiesel</b>
+                        </p>
+                        <p>
+                            <i>Night</i> is Elie Wiesel's masterpiece, a candid, horrific, and deeply poignant autobiographical account of his survival as a teenager in the Nazi death camps. This new translation by Marion Wiesel, Elie's wife and frequent translator, presents this seminal memoir in the language and spirit truest to the author's original intent. And in a substantive new preface, Elie reflects on the enduring importance of Night and his lifelong, passionate dedication to ensuring that the world never forgets man's capacity for inhumanity to man.
+                        </p>
+                        <p>
+                            <i>Night</i> offers much more than a litany of the daily terrors, everyday perversions, and rampant sadism at Auschwitz and Buchenwald; it also eloquently addresses many of the philosophical as well as personal questions implicit in any serious consideration of what the Holocaust was, what it meant, and what its legacy is and will be.
+                        </p>
+                    </Content>
+                    <IsLinkSuppressed>0</IsLinkSuppressed>
+                </EditorialReview>
+                <EditorialReview>
+                    <Source>Amazon.com Review</Source>
+                    <Content>In Nobel laureate Elie Wiesel's memoir 
+                        <i>Night</i>, a scholarly, pious teenager is wracked with guilt at having survived the horror of the Holocaust and the genocidal campaign that consumed his family. His memories of the nightmare world of the death camps present him with an intolerable question: how can the God he once so fervently believed in have allowed these monstrous events to occur? There are no easy answers in this harrowing book, which probes life's essential riddles with the lucid anguish only great literature achieves. It marks the crucial first step in Wiesel's lifelong project to bear witness for those who died.
+                    </Content>
+                    <IsLinkSuppressed>0</IsLinkSuppressed>
+                </EditorialReview>
+            </EditorialReviews>
+            <BrowseNodes>
+                <BrowseNode>
+                    <BrowseNodeId>2</BrowseNodeId>
+                    <Name>Biographies & Memoirs</Name>
+                    <Children>
+                        <BrowseNode>
+                            <BrowseNodeId>2327</BrowseNodeId>
+                            <Name>Arts & Literature</Name>
+                        </BrowseNode>
+                        <BrowseNode>
+                            <BrowseNodeId>2365</BrowseNodeId>
+                            <Name>Ethnic & National</Name>
+                        </BrowseNode>
+                        <BrowseNode>
+                            <BrowseNodeId>2376</BrowseNodeId>
+                            <Name>Historical</Name>
+                        </BrowseNode>
+                        <BrowseNode>
+                            <BrowseNodeId>2396</BrowseNodeId>
+                            <Name>Leaders & Notable People</Name>
+                        </BrowseNode>
+                        <BrowseNode>
+                            <BrowseNodeId>3048891</BrowseNodeId>
+                            <Name>Memoirs</Name>
+                        </BrowseNode>
+                        <BrowseNode>
+                            <BrowseNodeId>2419</BrowseNodeId>
+                            <Name>Professionals & Academics</Name>
+                        </BrowseNode>
+                        <BrowseNode>
+                            <BrowseNodeId>2429</BrowseNodeId>
+                            <Name>Reference & Collections</Name>
+                        </BrowseNode>
+                        <BrowseNode>
+                            <BrowseNodeId>1043842</BrowseNodeId>
+                            <Name>Regional Canada</Name>
+                        </BrowseNode>
+                        <BrowseNode>
+                            <BrowseNodeId>2430</BrowseNodeId>
+                            <Name>Regional U.S.</Name>
+                        </BrowseNode>
+                        <BrowseNode>
+                            <BrowseNodeId>2437</BrowseNodeId>
+                            <Name>Specific Groups</Name>
+                        </BrowseNode>
+                        <BrowseNode>
+                            <BrowseNodeId>2446</BrowseNodeId>
+                            <Name>Sports & Outdoors</Name>
+                        </BrowseNode>
+                        <BrowseNode>
+                            <BrowseNodeId>300961</BrowseNodeId>
+                            <Name>Travelers & Explorers</Name>
+                        </BrowseNode>
+                        <BrowseNode>
+                            <BrowseNodeId>11314</BrowseNodeId>
+                            <Name>True Crime</Name>
+                        </BrowseNode>
+                    </Children>
+                    <Ancestors>
+                        <BrowseNode>
+                            <BrowseNodeId>1000</BrowseNodeId>
+                            <Name>Subjects</Name>
+                            <IsCategoryRoot>1</IsCategoryRoot>
+                            <Ancestors>
+                                <BrowseNode>
+                                    <BrowseNodeId>283155</BrowseNodeId>
+                                    <Name>Books</Name>
+                                </BrowseNode>
+                            </Ancestors>
+                        </BrowseNode>
+                    </Ancestors>
+                </BrowseNode>
+                <BrowseNode>
+                    <BrowseNodeId>4994</BrowseNodeId>
+                    <Name>Holocaust</Name>
+                    <Ancestors>
+                        <BrowseNode>
+                            <BrowseNodeId>4992</BrowseNodeId>
+                            <Name>Jewish</Name>
+                            <Ancestors>
+                                <BrowseNode>
+                                    <BrowseNodeId>5035</BrowseNodeId>
+                                    <Name>World</Name>
+                                    <Ancestors>
+                                        <BrowseNode>
+                                            <BrowseNodeId>9</BrowseNodeId>
+                                            <Name>History</Name>
+                                            <Ancestors>
+                                                <BrowseNode>
+                                                    <BrowseNodeId>1000</BrowseNodeId>
+                                                    <Name>Subjects</Name>
+                                                    <IsCategoryRoot>1</IsCategoryRoot>
+                                                    <Ancestors>
+                                                        <BrowseNode>
+                                                            <BrowseNodeId>283155</BrowseNodeId>
+                                                            <Name>Books</Name>
+                                                        </BrowseNode>
+                                                    </Ancestors>
+                                                </BrowseNode>
+                                            </Ancestors>
+                                        </BrowseNode>
+                                    </Ancestors>
+                                </BrowseNode>
+                            </Ancestors>
+                        </BrowseNode>
+                    </Ancestors>
+                </BrowseNode>
+                <BrowseNode>
+                    <BrowseNodeId>22</BrowseNodeId>
+                    <Name>Religion & Spirituality</Name>
+                    <Children>
+                        <BrowseNode>
+                            <BrowseNodeId>12762</BrowseNodeId>
+                            <Name>Agnosticism</Name>
+                        </BrowseNode>
+                        <BrowseNode>
+                            <BrowseNodeId>12764</BrowseNodeId>
+                            <Name>Atheism</Name>
+                        </BrowseNode>
+                        <BrowseNode>
+                            <BrowseNodeId>12279</BrowseNodeId>
+                            <Name>Buddhism</Name>
+                        </BrowseNode>
+                        <BrowseNode>
+                            <BrowseNodeId>12290</BrowseNodeId>
+                            <Name>Christian Books & Bibles</Name>
+                        </BrowseNode>
+                        <BrowseNode>
+                            <BrowseNodeId>12506</BrowseNodeId>
+                            <Name>Hinduism</Name>
+                        </BrowseNode>
+                        <BrowseNode>
+                            <BrowseNodeId>12522</BrowseNodeId>
+                            <Name>Islam</Name>
+                        </BrowseNode>
+                        <BrowseNode>
+                            <BrowseNodeId>12540</BrowseNodeId>
+                            <Name>Judaism</Name>
+                        </BrowseNode>
+                        <BrowseNode>
+                            <BrowseNodeId>12489</BrowseNodeId>
+                            <Name>Literature & Fiction</Name>
+                        </BrowseNode>
+                        <BrowseNode>
+                            <BrowseNodeId>12621</BrowseNodeId>
+                            <Name>New Age & Spirituality</Name>
+                        </BrowseNode>
+                        <BrowseNode>
+                            <BrowseNodeId>12689</BrowseNodeId>
+                            <Name>Occult & Paranormal</Name>
+                        </BrowseNode>
+                        <BrowseNode>
+                            <BrowseNodeId>12735</BrowseNodeId>
+                            <Name>Other Eastern Religions & Sacred Texts</Name>
+                        </BrowseNode>
+                        <BrowseNode>
+                            <BrowseNodeId>12761</BrowseNodeId>
+                            <Name>Other Religions, Practices & Sacred Texts</Name>
+                        </BrowseNode>
+                        <BrowseNode>
+                            <BrowseNodeId>1873</BrowseNodeId>
+                            <Name>Religious Art</Name>
+                        </BrowseNode>
+                        <BrowseNode>
+                            <BrowseNodeId>12779</BrowseNodeId>
+                            <Name>Religious Studies</Name>
+                        </BrowseNode>
+                        <BrowseNode>
+                            <BrowseNodeId>12809</BrowseNodeId>
+                            <Name>Worship & Devotion</Name>
+                        </BrowseNode>
+                    </Children>
+                    <Ancestors>
+                        <BrowseNode>
+                            <BrowseNodeId>1000</BrowseNodeId>
+                            <Name>Subjects</Name>
+                            <IsCategoryRoot>1</IsCategoryRoot>
+                            <Ancestors>
+                                <BrowseNode>
+                                    <BrowseNodeId>283155</BrowseNodeId>
+                                    <Name>Books</Name>
+                                </BrowseNode>
+                            </Ancestors>
+                        </BrowseNode>
+                    </Ancestors>
+                </BrowseNode>
+            </BrowseNodes>
+        </Item>
+    </Items>
+</ItemLookupResponse>

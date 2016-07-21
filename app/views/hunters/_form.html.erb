@@ -1,0 +1,26 @@
+<%= form_for(@hunter) do |f| %>
+  <% if @hunter.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@hunter.errors.count, "error") %> prohibited this hunter from being saved:</h2>
+
+      <ul>
+      <% @hunter.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :isbn %><br>
+    <%= f.text_field :isbn %>
+  </div>
+  <div class="field">
+    <%= f.label :condition %><br>
+    <%= f.select :condition, Hunter.conditions.keys.to_a.map { |w| [w.humanize, w] } %>
+  </div>
+ 
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

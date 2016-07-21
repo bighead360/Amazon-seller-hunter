@@ -1,0 +1,36 @@
+
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Hunters</h1>
+<div class="alert alert-info" role="alert">total hunters : <%=Hunter.all.count%> results</div>
+
+<div class="alert alert-danger" role="alert">failed hunters : <%=Hunter.failed.count%> results</div>
+
+<table class="table table-striped">
+  <thead class="thead-inverse">
+    <tr>
+      <th>Isbn</th>
+      <th>Condition</th>
+      <th>Status</th>
+      <th colspan="4"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @hunters.each do |hunter| %>
+      <tr id="<%= dom_id(hunter) %>" >
+        <td><%= hunter.isbn %></td>
+       <td><%= hunter.condition.humanize %></td>
+        <td><%= hunter.status.humanize %></td>
+        <td><%= link_to 'Show book', hunter.book %></td>
+        <td><%= link_to 'Show seller', hunter.seller %></td>
+        <td><%= link_to 'Edit', edit_hunter_path(hunter) %></td>
+        <td><%= link_to 'Destroy', hunter, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<%= paginate @hunters%>
+
+<%= link_to 'New Hunter', new_hunter_path %>

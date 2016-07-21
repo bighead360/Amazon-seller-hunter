@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Amazon Seller Hunter</title>
+ 
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+
+</head>
+<body>
+<div id="wrapper">
+ <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                
+                <li>
+                <%=fa_icon "search"%>
+                <%= link_to 'Hunter List', hunters_path %>
+                   
+                </li>
+              
+                <li><%=fa_icon "book"%>
+                <%= link_to 'Books List',books_path %>
+                  
+                </li>
+
+                <li><%=fa_icon "home"%>
+                	<%= link_to 'Bookshops', bookshops_path %>
+                    
+                </li>
+                <li><%=fa_icon "list"%>
+                <%= link_to 'ISBN list', isbns_path %>
+                   
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-sign-out"></i>登出</a>
+                </li>
+               
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+      
+
+<div class="header col-lg-12 ">
+<a href="#menu-toggle" class="btn btn-default menubtn" id="menu-toggle"><i class="fa fa-bars"></i></a>
+
+<div class="logo" ><p><b> AMAZON SELLER HUNTER</b></p></div>
+</div>
+<div id="page-content-wrapper" >
+<%= yield %>
+</div>
+</div>
+ <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+
+    $('.ckeditor').ckeditor({
+  // optional config
+});
+    </script>
+
+
+</body>
+</html>

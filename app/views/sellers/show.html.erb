@@ -1,0 +1,64 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Seller name:</strong>
+  <%= @seller.seller_name %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @seller.price %>
+</p>
+
+<p>
+  <strong>Amazon id:</strong>
+  <%= @seller.amazon_id %>
+</p>
+
+<p>
+  <strong>Prime:</strong>
+  <%= @seller.prime %>
+</p>
+
+<p>
+  <strong>Rate:</strong>
+  <%= @seller.rate %>
+</p>
+
+<p>
+  <strong>Total ratings:</strong>
+  <%= @seller.total_ratings %>
+</p>
+
+<p>
+  <strong>In stock:</strong>
+  <%= @seller.in_stock %>
+</p>
+
+<p>
+  <strong>Shippingfee:</strong>
+  <%= @seller.shippingfee %>
+</p>
+
+<p>
+  <strong>Ship from:</strong>
+  <%= @seller.ship_from %>
+</p>
+<p>
+  <strong>Seller url:</strong>
+  
+  <%=link_to @seller.seller_url, @seller.seller_url,target: "_blank" %>
+
+
+<p>
+  <strong>Score:</strong>
+  <%= @seller.score %>
+</p>
+
+<p>
+  <strong>Free shipping:</strong>
+  <%= @seller.free_shipping %>
+</p>
+
+<%= link_to 'Edit', edit_seller_path(@seller) %> |
+<%= link_to 'Back', hunters_path %>

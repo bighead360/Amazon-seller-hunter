@@ -1,0 +1,21 @@
+<%= form_for(@bookshop) do |f| %>
+  <% if @bookshop.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@bookshop.errors.count, "error") %> prohibited this bookshop from being saved:</h2>
+
+      <ul>
+      <% @bookshop.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :Amazonid %><br>
+    <%= f.text_field :Amazonid %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

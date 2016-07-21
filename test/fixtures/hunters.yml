@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  isbn: MyString
+  condition: 1
+  status: 1
+
+two:
+  isbn: MyString
+  condition: 1
+  status: 1

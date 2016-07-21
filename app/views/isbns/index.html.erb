@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Isbns</h1>
+<div class="alert alert-info" role="alert">total isbns : <%=Isbn.all.count%> results</div>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Isbn</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+
+    <% @isbns.each do |isbn| %>
+      <tr>
+        <td><%= isbn.isbn %></td>
+        <td><%= link_to 'Show', isbn %></td>
+        
+        <td><%= link_to 'Call hunter', call_hunter_path(isbn.isbn) %></td>
+
+      
+        <td><%= link_to 'Edit', edit_isbn_path(isbn) %></td>
+        <td><%= link_to 'Destroy', isbn, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= paginate @isbns%>
+
+<%= link_to 'New Isbn', new_isbn_path %>

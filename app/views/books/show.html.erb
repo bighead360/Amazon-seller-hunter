@@ -1,0 +1,63 @@
+<p id="notice"><%= notice %></p>
+
+
+<p>
+  <strong>cover image:</strong>
+  <%= image_tag @book.cover_image %>
+</p>
+<p>
+  <strong>Title:</strong>
+  <%= @book.title %>
+</p>
+
+<p>
+  <strong>Author:</strong>
+  <%= @book.author %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @book.description.html_safe %>
+</p>
+
+<p>
+  <strong>Series:</strong>
+  <%= @book.series %>
+</p>
+<p>
+  <strong>Condition:</strong>
+  <%= @book.condition.humanize %>
+</p>
+<p>
+  <strong>Tags:</strong>
+  <%= @book.tags %>
+</p>
+<p>
+  <strong>Type:</strong>
+  <%= @book.cover_type.humanize %>
+</p>
+<p>
+  <strong>Publisher:</strong>
+  <%= @book.publisher %>
+</p>
+<p>
+  <strong>Pages:</strong>
+  <%= @book.pages %>
+</p>
+<p>
+  <strong>Language</strong>
+  <%= @book.language %>
+</p>
+
+<p>
+  <strong>Dimensions:</strong>
+  <%= @book.dimensions %>
+</p>
+<p>
+  <strong>Weight:</strong>
+  <%= @book.weight %>
+</p>
+
+<%= link_to 'Edit', edit_book_path(@book) %> |
+<%= link_to 'Back', books_path %>
+<%= link_to 'Back to Hunters list', hunters_path %>
